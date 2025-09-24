@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.head-container{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.link-container{
+    margin: 10px;
+}
+
+.link-item{
+    margin-right: 20px;
+}
+
+.landing{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.landing-img{
+    width: 100px;
+    height: auto;
+}
