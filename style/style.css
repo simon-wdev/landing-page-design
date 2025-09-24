@@ -9,7 +9,7 @@
 }
 
 .header{
-    width: 900px;
+    width: 1000px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 
 .link-container{
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .link-item{
@@ -26,26 +26,39 @@
 }
 
 .landing{
-    width: 900px;
+    width: 1000px;
     height: 200px;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .landing-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .landing-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 400px;
+    line-height: 1.2;
 
 }
 
-.landing-img{
-    width: 100px;
+.landing-text a{
+    margin-top: 10px;
+    border: solid, black;
+    width: 50px;
+    text-align: center;
+}
+
+
+
+.landing-img img{
+    width: 500px;
     height: auto;
+    border-radius: 10px;
 }
