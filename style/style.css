@@ -1,9 +1,13 @@
 *{
     margin: 0;
+    font-family: Roboto;
+}
+
+#start{
+    background-color: #1F2937;
 }
 
 .head-container{
-    background-color: lightgray;
     display: flex;
     justify-content: center;
 }
@@ -17,17 +21,24 @@
     padding: 10px;
 }
 
+.header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .link-container{
     margin-left: 10px;
 }
 
 .link-item{
     margin-right: 20px;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .landing{
     width: 1000px;
-    height: 200px;
+    height: 400px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -42,17 +53,34 @@
 .landing-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 400px;
     line-height: 1.2;
+    margin: 0 20px 0 0;
 
+}
+
+.landing-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+
+.landing-text p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .landing-text a{
     margin-top: 10px;
-    border: solid, black;
     width: 50px;
     text-align: center;
+    color: white;
+    background-color: #3882F6;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 
