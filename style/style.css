@@ -90,3 +90,42 @@
     height: auto;
     border-radius: 10px;
 }
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-elements{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.about-elements h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.image-subtext{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.icons{
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+}
