@@ -34,12 +34,13 @@
     margin-right: 20px;
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 20px;
-    transition: font-size 0.3s;
+    font-size: 18px;
+    font-weight: 900;
+    transition: font-size 0.2s;
 }
 
 .link-item:hover{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .landing{
@@ -134,7 +135,7 @@
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .quote-container{
@@ -187,7 +188,7 @@
     width: 900px;
     background-color: #3882F6;
     padding: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     border-radius: 20px;
 }
 
@@ -203,11 +204,22 @@
     border: solid, white;
     border-radius: 10px;
     padding: 5px 30px 5px 30px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.2s, color 0.2s;
 
 }
 
 .cta-link a:hover{
     background-color: white;
     color: #3882F6;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+footer a{
+    color:#F9FAF8;
 }
