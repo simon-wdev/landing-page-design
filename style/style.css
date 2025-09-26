@@ -34,6 +34,12 @@
     margin-right: 20px;
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 20px;
+    transition: font-size 0.3s;
+}
+
+.link-item:hover{
+    font-size: 22px;
 }
 
 .landing{
@@ -197,5 +203,11 @@
     border: solid, white;
     border-radius: 10px;
     padding: 5px 30px 5px 30px;
+    transition: background-color 0.3s, color 0.3s;
 
+}
+
+.cta-link a:hover{
+    background-color: white;
+    color: #3882F6;
 }
